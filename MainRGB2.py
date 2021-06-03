@@ -72,7 +72,7 @@ while g == True:
     Message = input("Would you like to calibrate?") 
     if Message.lower() == "yes":
         calibration = True 
-	    rgb.CalibrateSensor()
+	rgb.CalibrateSensor()
         g = False
     elif Message.lower() == "no":
         calibration = False
